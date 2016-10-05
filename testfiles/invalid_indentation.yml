@@ -1,0 +1,9 @@
+# valid indentation example assuming an indentation level of '2'
+---
+level0:
+  level1:
+    level2:
+      level3:
+        - one
+        - two
+        - three

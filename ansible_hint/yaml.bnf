@@ -1,0 +1,14 @@
+
+#; 4.1. Characters
+
+#; 4.1.1. Character Set
+
+# [1] characters as defined by the Unicode standard, excluding most control characters and the surrogate blocks 
+c-printable ::= [\x09] / 
+                [\x0A] / 
+                [\x0D] / 
+              [ \x20-\x7E] / 
+                [\x85] / 
+              [ \xA0-\xD7FF] / 
+              [ \xE000-\xFFFD] / 
+              [ \x10000-\x10FFFF]

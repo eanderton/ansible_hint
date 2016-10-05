@@ -1,0 +1,9 @@
+---
+- name: Test MOTD Presence
+  file:
+    path: '/etc/motd'
+    owner: root
+    group: root
+    mode: 0644
+
+

@@ -1,0 +1,2 @@
+---
+foo: {{ this is not a valid yaml file

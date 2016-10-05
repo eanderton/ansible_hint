@@ -1,0 +1,4 @@
+/env
+*.pyc
+/ansible_hint.egg-info
+/dist

@@ -1,0 +1,14 @@
+# valid indentation example assuming an indentation level of '2'
+---
+level0:
+  level1:
+    level2:
+      level3:  # {0: [7, 10], 1: [9, 10], 2: [10, 10]}')
+        
+        - one
+        
+        - two
+        - three
+      test_3: [ 
+four, five, 
+six ]  #{0: [12, 0], 1: [12, 6], 2: [13, 0]}'
